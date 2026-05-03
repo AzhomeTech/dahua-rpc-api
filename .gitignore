@@ -1,0 +1,27 @@
+# Project assets (AI conversation source)
+Dahua RPC Camera Commands
+
+# Design docs & plans (internal only)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.env
