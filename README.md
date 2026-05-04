@@ -1,5 +1,8 @@
 # Dahua IP Camera / NVR JSON-RPC API Reference
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Methods](https://img.shields.io/badge/methods-275%2B-blue.svg)](https://github.com/H3xano/dahua-rpc-api)
+
 Exhaustive documentation of the Dahua proprietary JSON-RPC API, reverse-engineered from the device's internal JavaScript source files (`rpc.js`, `rpcBase.js`, `rpcLogin.js`).
 
 ## Architecture
