@@ -1,6 +1,6 @@
 # NVR NEXT 固件 (DHI-NVR5xxx-EI) 逆向筆記
 
-實測平台：DAHUA **NVR5232-EI**（NVR NEXT 新版 web 固件），逆向日期：2026-10-27/28。
+實測平台：DAHUA **NVR5xxx-EI**（NVR NEXT 新版 web 固件），逆向日期：2026-10-27/28。
 
 原 repo 嘅兩步 Challenge-Response MD5 流程 **唔適用於呢版固件**（實測回 `268632085 User or password not valid`）。以下為經真實登入數據驗證嘅正確流程。
 
