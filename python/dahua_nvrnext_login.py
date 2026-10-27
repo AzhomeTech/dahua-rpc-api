@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DAHUA NVR NEXT 固件 (DHI-NVR5232-EI) 登入 + API 客戶端
+DAHUA NVR NEXT 固件 (DHI-NVR5xxx-EI) 登入 + API 客戶端
 逆向自 NVR NEXT web 固件 2026-10-27，實測 result:true。
 
 登入公式（大寫兩步 MD5）：
@@ -9,7 +9,7 @@ DAHUA NVR NEXT 固件 (DHI-NVR5232-EI) 登入 + API 客戶端
   第二步 payload 必須帶 passwordType:"Default" + authorityType:"Default" + session
 
 用法：
-  python3 dahua_nvrnext_login.py --host 192.168.1.60 --user testuser --password '***' --call ChannelManager.getChannelStatus
+  python3 dahua_nvrnext_login.py --host http://<nvr-ip> --user <user> --password '***' --call ChannelManager.getChannelStatus
 """
 import argparse
 import hashlib

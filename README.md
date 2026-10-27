@@ -174,9 +174,9 @@ See `reference/dahua_rpc_client.py` for a working Python login + discovery scrip
 
 ---
 
-## Fork 備註 (AzhomeTech)
+## Fork 備註
 
-呢個 fork 加入咗 **NVR NEXT 新版固件** (DHI-NVR5232-EI, 2026-10-27 逆向) 嘅實測筆記：
+呢個 fork 加入咗 **NVR NEXT 新版固件** (DHI-NVR5xxx-EI, 2026-10-27 逆向) 嘅實測筆記：
 
 - [`NVR-NEXT-FIRMWARE-NOTES.md`](NVR-NEXT-FIRMWARE-NOTES.md) — 大寫兩步 MD5 登入公式、錯誤碼語義、260 服務清單、新舊方法名對照
 - [`python/dahua_nvrnext_login.py`](python/dahua_nvrnext_login.py) — 可直接運行嘅登入客戶端

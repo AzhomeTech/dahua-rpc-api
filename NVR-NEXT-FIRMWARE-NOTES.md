@@ -1,4 +1,4 @@
-# NVR NEXT 固件 (DHI-NVR5232-EI) 逆向筆記
+# NVR NEXT 固件 (DHI-NVR5xxx-EI) 逆向筆記
 
 實測平台：DAHUA **NVR5232-EI**（NVR NEXT 新版 web 固件），逆向日期：2026-10-27/28。
 
@@ -53,7 +53,7 @@ POST /RPC2_Login
 ## 低權限帳號實測可用方法（result:true）
 
 - `global.getCurrentTime`
-- `magicBox.getDeviceType` → `DHI-NVR5232-EI`
+- `magicBox.getDeviceType` → `DHI-NVR5xxx-EI`
 - `magicBox.getSerialNo`
 - `userManager.getAuthorityList` → `Monitor_01..N`（通道權限組清單）
 - `system.listService` → **260 個服務名**（呢版固件完整 namespace 清單）
